@@ -28,7 +28,7 @@ y = ss["sm_li"]
 
 # Split the data into train/test
 X_train, X_test, y_train, y_test = train_test_split(
-    X.values, y, stratify=y, test_size=0.2, random_state=356
+    X.values, y, stratify=y, test_size=0.2, random_state= 999
 )
 
 # Train a logistic regression model using the data
